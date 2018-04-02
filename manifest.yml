@@ -1,0 +1,6 @@
+applications:
+- name: APP_NAME
+  host: APP_HOST
+  random-route: false
+  memory: 256M
+  command: node app.js

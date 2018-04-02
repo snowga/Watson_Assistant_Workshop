@@ -1,0 +1,116 @@
+.navBarStyle{
+ background-color: rgb(0, 150, 255) !important;
+ height: 5vw !important;
+}
+
+.toolBarGroup{
+
+}
+
+.titleHeader{
+  color: white;
+  font-size: 2em;
+}
+
+.titleFooter{
+  color: white;
+  font-size: 1em;
+}
+
+.chatStyle{
+  height: fit-content ;
+  width: auto;
+  border-radius: 2vw !important;
+}
+
+.responsesStyle{
+  background-color: hsl(216, 33%, 97%) !important;
+  height: 60vh ;
+  width: auto;
+  border-radius: 2vw !important;
+  overflow: scroll;
+}
+
+.marginChat{
+  margin-top: 3vw;
+}
+
+.marginResponses{
+  padding: 1vw 1vw 1vw 1vw !important;
+  margin: 0vw 0vw 0vw 0vw !important;
+}
+
+.footerBarStyle{
+  background-color: rgb(0, 150, 255) !important;
+  height: 4vw !important;
+  position: fixed !important; /* Set the navbar to fixed position */
+  bottom: 0 !important; /* Position the navbar at the bottom of the page */
+  width: 100% !important; /* Full width */
+}
+
+.inputTextStyle{
+  height: 7vw !important;
+  width: 100% !important;
+  font-size: 2em !important;
+  padding-left: 2vw !important;
+}
+
+.sgLogo{
+  height: 1vw;
+  margin: 0vw 0vw 0vw .5vw;
+  display: inline;
+}
+
+.sendIcon{
+  height: 5vw;
+  margin: auto;
+  display: inline;
+}
+
+.sendButton{
+  height: auto !important;
+  width: auto !important;
+  margin: auto !important;
+  display: inline !important;
+  float: right;
+}
+
+.chatItemStyleUser{
+  min-height: 8vw !important;
+  min-width: 35vw !important;
+  max-width: 55vw !important;
+  height:  fit-content !important;
+  width: fit-content !important;
+  border-radius: 2vw !important;
+  margin: auto 0% auto auto;
+  text-align: right;
+}
+
+.chatItemStyleChatbot{
+  min-height: 8vw !important;
+  min-width: 35vw !important;
+  max-width: 55vw !important;
+  height:  fit-content !important;
+  width: fit-content !important;
+  border-radius: 2vw !important;
+  margin: auto auto auto 0%;
+  text-align: left;
+}
+
+.chatItemTextStyle{
+  padding: 2vw 0vw 0vw 0vw !important;
+  font-size: 1.5em;
+}
+
+.chatItemTimeStyle{
+  padding: .5vw 0vw 2vw 0vw !important;
+  font-size: 1em;
+}
+
+.chatItemContainer{
+  padding: 1vw 2vw 1vw 2vw;
+}
+
+.imageContainer{
+  margin:auto;
+}
